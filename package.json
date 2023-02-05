@@ -1,0 +1,104 @@
+{
+  "name": "energy-australia-coding-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.12",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "axios": "^1.3.2",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "http-proxy-middleware": "^2.0.6",
+    "prettier": "^2.8.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --passWithNoTests",
+    "eject": "react-scripts eject",
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write ."
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:import/recommended",
+      "plugin:import/typescript",
+      "react-app",
+      "react-app/jest",
+      "prettier"
+    ],
+    "rules": {
+      "import/no-extraneous-dependencies": [
+        "error",
+        {
+          "devDependencies": false
+        }
+      ],
+      "import/order": [
+        "error",
+        {
+          "alphabetize": {
+            "order": "asc"
+          },
+          "newlines-between": "always-and-inside-groups",
+          "pathGroups": [
+            {
+              "pattern": "*.css",
+              "patternOptions": {
+                "matchBase": true
+              },
+              "group": "index",
+              "position": "after"
+            },
+            {
+              "pattern": "*.svg",
+              "patternOptions": {
+                "matchBase": true
+              },
+              "group": "index",
+              "position": "after"
+            }
+          ]
+        }
+      ]
+    },
+    "settings": {
+      "import/parsers": {
+        "@typescript-eslint/parser": [
+          ".ts",
+          ".tsx"
+        ]
+      },
+      "import/resolver": {
+        "typescript": {
+          "project": "tsconfig.json"
+        }
+      }
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "https://eacp.energyaustralia.com.au"
+}
