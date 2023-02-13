@@ -1,0 +1,116 @@
+[
+  {
+    "name": "ACR",
+    "bands": [
+      {
+        "name": "Critter Girls",
+        "musicFestivals": []
+      },
+      {
+        "name": "Manish Ditch",
+        "musicFestivals": ["Trainerella"]
+      }
+    ]
+  },
+  {
+    "name": "Anti Records",
+    "bands": [
+      {
+        "name": "YOUKRANE",
+        "musicFestivals": ["Trainerella"]
+      }
+    ]
+  },
+  {
+    "name": "Fourth Woman Records",
+    "bands": [
+      {
+        "name": "Jill Black",
+        "musicFestivals": ["LOL-palooza"]
+      },
+      {
+        "name": "The Black Dashes",
+        "musicFestivals": ["Small Night In"]
+      }
+    ]
+  },
+  {
+    "name": "Marner Sis. Recording",
+    "bands": [
+      {
+        "name": "Auditones",
+        "musicFestivals": ["Twisted Tour"]
+      },
+      {
+        "name": "Green Mild Cold Capsicum",
+        "musicFestivals": ["Small Night In"]
+      },
+      {
+        "name": "Wild Antelope",
+        "musicFestivals": ["Small Night In"]
+      }
+    ]
+  },
+  {
+    "name": "MEDIOCRE Music",
+    "bands": [
+      {
+        "name": "Yanke East",
+        "musicFestivals": ["Small Night In"]
+      }
+    ]
+  },
+  {
+    "name": "Monocracy Records",
+    "bands": [
+      {
+        "name": "Adrian Venti",
+        "musicFestivals": ["Trainerella"]
+      }
+    ]
+  },
+  {
+    "name": "Outerscope",
+    "bands": [
+      {
+        "name": "Squint-281",
+        "musicFestivals": ["Small Night In"]
+      },
+      {
+        "name": "Summon",
+        "musicFestivals": ["Twisted Tour"]
+      }
+    ]
+  },
+  {
+    "name": "Pacific Records",
+    "bands": [
+      {
+        "name": "Frank Jupiter",
+        "musicFestivals": ["LOL-palooza"]
+      },
+      {
+        "name": "Propeller",
+        "musicFestivals": []
+      }
+    ]
+  },
+  {
+    "name": "Still Bottom Records",
+    "bands": [
+      {
+        "name": "Wild Antelope",
+        "musicFestivals": ["Trainerella"]
+      }
+    ]
+  },
+  {
+    "name": "XS Recordings",
+    "bands": [
+      {
+        "name": "Werewolf Weekday",
+        "musicFestivals": ["LOL-palooza"]
+      }
+    ]
+  }
+]
